@@ -13,7 +13,7 @@ const (
 
 	FrameHeaderMagic uint16 = 0x1000
 
-	BitMaskIsStreaming = uint16(0b1000_0000_0000_0000)
+	BitMaskIsStreaming = uint16(0b0000_0000_0000_0001)
 
 	PaddingSize = 4
 
